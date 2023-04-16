@@ -80,17 +80,67 @@ public class Begin {
 //         double c = Math.sqrt(a * b);
 //         System.out.println(c);
 
-//Begin10–. Даны два ненулевых числа. Найти сумму, разность, произведение и
+//с–. Даны два ненулевых числа. Найти сумму, разность, произведение и
 //частное их квадратов.
-         Scanner sc = new Scanner(System.in);
-         System.out.println("Введіть два числа: ");
-         double a = sc.nextDouble();
-         double b = sc.nextDouble();
-         double sum = a + b;
-         double rizn = a - b;
-         double mno = a * b;
-         double dil = Math.pow(a, 2) / Math.pow(b, 2);
-         System.out.println("Suma = " + sum + "; rizn = " + rizn + "; mno = " + mno + "; dil = " + dil);
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Введіть два числа: ");
+//         double a = sc.nextDouble();
+//         double b = sc.nextDouble();
+//         double sum = a + b;
+//         double rizn = a - b;
+//         double mno = a * b;
+//         double dil = Math.pow(a, 2) / Math.pow(b, 2);
+//         System.out.println("Suma = " + sum + "; rizn = " + rizn + "; mno = " + mno + "; dil = " + dil);
+
+         //Begin11
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Введіть два числа: ");
+//         double a = sc.nextDouble();
+//         double b = sc.nextDouble();
+//         double kvSum = Math.abs((Math.pow(a, 2)+(2*a*b)+(Math.pow(b, 2))));
+//        System.out.println("kv = " + kvSum);
+
+        //Begin 12
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введіть a, b:");
+//        double a = sc.nextDouble();
+//        double b = sc.nextDouble();
+//        double c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+//        double P = a + b + c;
+//        System.out.println("c = " + c + " P = " + P);
+
+        //Begin 13
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введіть R1 та R2");
+//        double R1 = sc.nextDouble();
+//        double R2 = sc.nextDouble();
+//        double S1 = Math.PI * Math.pow(R1, 2);
+//        double S2 = Math.PI * Math.pow(R2, 2);
+//        double S3 = S1 - S2;
+//        System.out.println("S1 = " + S1);
+//        System.out.println("S2 = " + S2);
+//        System.out.println("S3 = " + S3);
+
+        //Begin 14
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введіть L");
+//        double L = sc.nextDouble();
+//        double R = L / 2 * Math.PI;
+//        double S = Math.PI * Math.pow(R, 2);
+//        System.out.println("R = " + R);
+//        System.out.println("S = " + S);
+
+        //Begin 15
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введіть S");
+        double S = sc.nextDouble();
+        double R = Math.sqrt(S / Math.PI);
+        double L = 2 * Math.PI * R;
+        double D = R * 2;
+        System.out.println("D = " + D);
+        System.out.println("L = " + L);
+
+
 
     }
 }
