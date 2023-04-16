@@ -131,15 +131,46 @@ public class Begin {
 //        System.out.println("S = " + S);
 
         //Begin 15
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Введіть S");
-        double S = sc.nextDouble();
-        double R = Math.sqrt(S / Math.PI);
-        double L = 2 * Math.PI * R;
-        double D = R * 2;
-        System.out.println("D = " + D);
-        System.out.println("L = " + L);
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введіть S");
+//        double S = sc.nextDouble();
+//        double R = Math.sqrt(S / Math.PI);
+//        double L = 2 * Math.PI * R;
+//        double D = R * 2;
+//        System.out.println("D = " + D);
+//        System.out.println("L = " + L);
 
+        //Begin 16
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введіть координати точок x1 та x2");
+//        double x1 = sc.nextDouble();
+//        double x2 = sc.nextDouble();
+//        double distance = Math.abs(x2 - x1);
+//        System.out.println("Відстань = " + distance);
+
+        //Begin 17
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введіть координати точок А, В, С");
+//        double A = sc.nextDouble();
+//        double B = sc.nextDouble();
+//        double C = sc.nextDouble();
+//        double AC = Math.abs(C - A);
+//        double BC = Math.abs(C - B);
+//        double sum = AC + BC;
+//        System.out.println("AC = " + AC + " BC = " + BC + " Suma = " + sum);
+
+        //Begin 18
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введіть значення А, В, С так щоб точка С знаходилася мыж А та В");
+//        double A = sc.nextDouble();
+//        double B = sc.nextDouble();
+//        double C = sc.nextDouble();
+//        double AC = Math.abs(C - A);
+//        double BC = Math.abs(B - C);
+//        double mno = AC * BC;
+//        System.out.println("множення довжин = " + mno);
+
+        //Begin 19
 
 
     }
