@@ -171,18 +171,73 @@ public class Array {
 //       }
 
 
- int[][] jagged = new int[3][];
+// int[][] jagged = new int[3][];
+//
+//         jagged[0] = new int[] {1,2};
+//         jagged[1] = new int[] {1,2,3,4};
+//         jagged[2] = new int[] {1,2,3};
+//
+//         for (int i = 0; i < jagged.length; i++){
+//             for (int j = 0; j < jagged[i].length; j++){
+//                 System.out.print(" " + jagged[i][j]);
+//             }
+//             System.out.println();
+//         }
 
-         jagged[0] = new int[] {1,2};
-         jagged[1] = new int[] {1,2,3,4};
-         jagged[2] = new int[] {1,2,3};
+//        int [][] arr = {{1,2,3}, {4,5,6}, {7,8,9}}; //одна з реалізацій
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr.length; j++) {
+//                System.out.print(" " + arr[i][j]);
+//            }
+//            System.out.println();
+//            }
 
-         for (int i = 0; i < jagged.length; i++){
-             for (int j = 0; j < jagged[i].length; j++){
-                 System.out.print(" " + jagged[i][j]);
-             }
-             System.out.println();
-         }
+        //транспортування матриці
 
+//        int [][] arr = {{1,2,3}, {4,5,6}, {7,8,9}}; //одна з реалізацій
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr.length; j++) {
+//                System.out.print(" " + arr[j][i]);
+//            }
+//            System.out.println();
+//            }
+
+//        int [][] arr = {
+//                {1,2,3},
+//                {4,5,6},
+//                {7,8,9}
+//        };
+//        int [][] arr1 = {
+//                {1,2,3},
+//                {4,5,6},
+//                {7,8,9}
+//        };
+//        int [][] sum = new int[3][3];
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = 0; j < arr.length; j++) {
+//                sum[i][j] = arr[i][j] + arr1[i][j];
+//                System.out.print(" " + sum[i][j]);
+//            }
+//            System.out.println();
+//        }
+
+        int [][] arr = {
+                {1,2,3},
+                {4,50,6},
+                {7,8,9}
+        };
+        int max = arr[0][0];
+        for (int i = 1; i < arr.length; i++) {
+            for (int j = 0; j < arr.length; j++) {
+                if(arr[i][j] > max)
+                    max = arr[i][j];
+            }
+        }
+        System.out.println(max);
     }
 }
+
+
+
