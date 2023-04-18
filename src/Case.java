@@ -106,9 +106,33 @@ public class Case {
 //                System.out.println("помилка");
 
         //case 5
-        Scanner sc = new Scanner(System.in);
-        System.out.println("1 - сума, 2 - різниця, 3 - множення, 4 - ділення");
-        int n = sc.nextInt();
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("1 - сума, 2 - різниця, 3 - множення, 4 - ділення");
+//        int operation = sc.nextInt();
+//        System.out.println("Введіть А та В");
+//        double a = sc.nextInt();
+//        double b = sc.nextInt();
+//        switch (operation){
+//            case 1:
+//                double c = a+b;
+//                System.out.println(c);
+//                break;
+//            case 2:
+//                 c = a-b;
+//                System.out.println(c);
+//                break;
+//            case 3:
+//                 c = a*b;
+//                System.out.println(c);
+//                break;
+//            case 4:
+//                 c = a/b;
+//                System.out.println(c);
+//                break;
+//            default:
+//                System.out.println("Немає такої операції");
+//                break;
+//        }
 
 
 
