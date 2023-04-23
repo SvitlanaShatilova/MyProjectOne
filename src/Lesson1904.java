@@ -121,13 +121,13 @@ public class Lesson1904 {
 
         /*For8. Даны два целых числа A и B (A < B). Найти произведение всех целых
 чисел от A до B включительно.*/
-        int A = 5;
-        int B = 6;
-        int res = 1;
-        for (int i = A; i <=B; i++) {
-            res *=i;
-        }
-        System.out.println(res);
+//        int A = 5;
+//        int B = 6;
+//        int res = 1;
+//        for (int i = A; i <=B; i++) {
+//            res *=i;
+//        }
+//        System.out.println(res);
 
 
         }

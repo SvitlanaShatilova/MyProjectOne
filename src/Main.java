@@ -73,6 +73,23 @@ public class Main {
 //        c = (a<b) ? a : b;
 //        System.out.println(c);
 
+
+            int var1 = 5;
+
+            int var2 = 18;
+
+            for (int i = 0; i < var1; i++){
+
+                for(int j = 0; j < var2; j++){
+                    System.out.print("*");
+                }
+                System.out.println();
+
+            }
+
+        }
+
     }
-}
+
+
 
