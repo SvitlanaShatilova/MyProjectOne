@@ -1,7 +1,7 @@
 public class Printing_Shapes {
     public static void main(String[] args) {
-        final int width = 30;  //ширина
-        final int height = 20; //висота
+        final int width = 10;  //ширина
+        final int height = 6; //висота
         final String emptySymbol = " ";
         final String fillSymbol = "*";
 
