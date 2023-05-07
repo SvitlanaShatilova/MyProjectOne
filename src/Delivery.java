@@ -3,29 +3,29 @@
 // Напишіть програму, яка розраховуватиме та виводитиме на екран кількість можливих варіантів доставлення товару.
 // Для розв'язку задачі, використовуйте факторіал N!, що розраховується рекурсією. Поясніть, чому не рекомендується
 // використовувати рекурсію для розрахунку факторіала. Вкажіть слабкі місця цього підходу.
+
 import java.util.Scanner;
 
-public class L_12_Dostavka {
+public class Delivery {
+    public static void main(String[] args) {
 
-        public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Для розрахунку наявних маршрутів введіть кількість клієнтів: ");
+        int client = sc.nextInt();
+        int route = factorial(client);
 
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Для розрахунку наявних маршрутів введіть кількість клієнтів: ");
-            int client = sc.nextInt();
-            int route = factorial(client);
+        System.out.println("Для доставки товару пропонується " + route + " варіантів маршрутів");
+    }
 
-            System.out.println("Для доставки товару пропонується " + route + " варіантів маршрутів");
-        }
+    public static int factorial(int N) {
 
-        public static int factorial(int N) {
-
-            if (N >= 1) {
-                return N * factorial(N - 1);
-            } else {
-                return 1;
-            }
+        if (N >= 1) {
+            return N * factorial(N - 1);
+        } else {
+            return 1;
         }
     }
+}
 
 //Рекурсію не бажано використовувати оскільки вона забирає дуже багато памяті.
 
@@ -34,7 +34,4 @@ public class L_12_Dostavka {
 //Нескінченна рекурсія — це коли функція ніколи не припиняє викликати саму себе.
 //Кожна рекурсивна функція повинна мати умову зупинки, яка є умовою, коли функція
 //припиняє викликати саму себе.
-
-
-
 
