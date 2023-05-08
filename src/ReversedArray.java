@@ -8,16 +8,14 @@
    масиву розмірністю в count, заповніть одиницями ті елементи, які не були скопійовані з вихідного масиву.*/
 
 public class ReversedArray {
-    public static void myReverse(int[] array) {
+    public static int[] myReverse(int[] array) {
         int[] arrayRevers = new int[5];
         int index = 0;
         for (int i = array.length - 1; i >= 0; i--) {
             arrayRevers[index] = array[i];
             index++;
-        }
-        for (int i : arrayRevers) {
-            System.out.print(i + " ");
-        }
+
+        }return arrayRevers;
     }
     public static int[] subArray(int[] array, int index, int count) {
         int[] arrayPart = new int[count];
@@ -34,11 +32,10 @@ public class ReversedArray {
     }
     public static void main(String[] args) {
         int[] arrayInt = {100, 200, 300, 400, 500};
-        myReverse(arrayInt);
+        int[] arrayRew = myReverse(arrayInt);
+        for (int i : arrayRew) System.out.print(i + " ");
         System.out.println();
         int[] myArray = subArray(arrayInt, 4, 10);
-        for (int i : myArray) {
-            System.out.print(i + " ");
-        }
+        for (int i : myArray) System.out.print(i + " ");
     }
 }

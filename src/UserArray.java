@@ -15,7 +15,7 @@ public class UserArray {
             }
         }
         for (int i : increaseArray) System.out.print(i + " ");
-    }
+   }
     public static int[] additionValue(int[] array, int value) {
         int[] arrayAdd = new int[array.length+1];
         arrayAdd[0] = value;
