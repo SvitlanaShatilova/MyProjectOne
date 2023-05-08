@@ -3,7 +3,7 @@
 який приймає два аргументи, перший аргумент типу int [] array, другий аргумент типу int value. У тілі методу реалізуйте
 можливість додавання другого аргументу методу в масив за індексом 0, водночас довжина нового масиву має збільшитися
 на 1 елемент, а елементи одержуваного масиву як перший аргумент мають скопіюватися в новий масив починаючи з індексу 1.*/
-
+import java.util.Arrays;
 public class UserArray {
     public static void increaseLength(int[] array) {
         int[] increaseArray = new int[array.length+1];
@@ -30,6 +30,7 @@ public class UserArray {
         System.out.println();
         int[] myArray = additionValue(arrayInt, 88);
         for (int i : myArray) System.out.print(i + " ");
+        System.out.println();
     }
 }
 

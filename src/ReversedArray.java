@@ -7,6 +7,7 @@
    вихідного масиву (від зазначеного індексу index до індексу останнього елемента), то під час формування нового
    масиву розмірністю в count, заповніть одиницями ті елементи, які не були скопійовані з вихідного масиву.*/
 
+import java.util.Arrays;
 public class ReversedArray {
     public static int[] myReverse(int[] array) {
         int[] arrayRevers = new int[5];
@@ -37,5 +38,9 @@ public class ReversedArray {
         System.out.println();
         int[] myArray = subArray(arrayInt, 4, 10);
         for (int i : myArray) System.out.print(i + " ");
+        System.out.println();
+        System.out.println(Arrays.toString(arrayRew));
+        System.out.println(Arrays.toString(myReverse(arrayInt)));
     }
-}
+    }
+
