@@ -22,3 +22,19 @@ public class Conversion {
         System.out.println("Результат операції: " + Сonverting(amount, exchange));
     }
 }
+/******************************************************************************************************************
+ * Якщо в методі змінна використувається тільки для запису в неї результату якихось дій і повернення -
+ * то єю можна знехтувати
+ * Замість
+ *
+ *     public static double сonverting (double value1, double value2){
+ *  int res = value1 * value2;
+ *         return res;
+ *     }
+ *
+ * Можна написати ось так
+ *
+ *     public static double сonverting (double value1, double value2){
+ *  return value1 * value2;
+ *     }
+ *****************************************************************************************************************/
